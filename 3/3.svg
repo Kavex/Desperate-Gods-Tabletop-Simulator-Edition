@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 935 1210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_3"><path d="M0,1210L0,0L935,0l0,1210Z" /></clipPath>
+<style type="text/css"><![CDATA[
+.g2_3{
+}
+.g1_3{
+fill: #FFFFFF;
+}
+]]></style>
+</defs>
+<path d="M0,0L935,0l0,1210L0,1210L0,0Z" class="g1_3" />
+<g clip-path="url(#c0_3)">
+<path d="M0,-2419.9l935,0L935,6050L0,6050L0,-2419.9Z" class="g1_3" />
+</g>
+<path d="M0,0L935,0l0,1210L0,1210L0,0Z" class="g1_3" />
+<path d="M0,110l935,0l0,1100L0,1210L0,110Z" class="g1_3" />
+<path d="M495,519.1l331.1,0l0,1.1l-331.1,0l0,-1.1Z" class="g2_3" />
+<path d="M495,737.9l331.1,0l0,1.2l-331.1,0l0,-1.2Z" class="g2_3" />
+<path d="M495,519.1l1.1,0l0,220l-1.1,0l0,-220Z" class="g2_3" />
+<path d="M825,519.1l1.1,0l0,220l-1.1,0l0,-220Z" class="g2_3" />
+<path d="M165,519.1l331.1,0l0,1.1l-331.1,0l0,-1.1Z" class="g2_3" />
+<path d="M165,737.9l331.1,0l0,1.2l-331.1,0l0,-1.2Z" class="g2_3" />
+<path d="M165,519.1l1.1,0l0,220l-1.1,0l0,-220Z" class="g2_3" />
+<path d="M495,519.1l1.1,0l0,220l-1.1,0l0,-220Z" class="g2_3" />
+<path d="M495,310.5l331.1,0l0,1.2l-331.1,0l0,-1.2Z" class="g2_3" />
+<path d="M495,519.1l331.1,0l0,1.1l-331.1,0l0,-1.1Z" class="g2_3" />
+<path d="M495,310.5l1.1,0l0,209.7l-1.1,0l0,-209.7Z" class="g2_3" />
+<path d="M825,310.5l1.1,0l0,209.7l-1.1,0l0,-209.7Z" class="g2_3" />
+<path d="M165,310.5l331.1,0l0,1.2l-331.1,0l0,-1.2Z" class="g2_3" />
+<path d="M165,519.1l331.1,0l0,1.1l-331.1,0l0,-1.1Z" class="g2_3" />
+<path d="M165,310.5l1.1,0l0,209.7l-1.1,0l0,-209.7Z" class="g2_3" />
+<path d="M495,310.5l1.1,0l0,209.7l-1.1,0l0,-209.7Z" class="g2_3" />
+<path d="M495,110l331.1,0l0,1.1l-331.1,0l0,-1.1Z" class="g2_3" />
+<path d="M495,310.5l331.1,0l0,1.2l-331.1,0l0,-1.2Z" class="g2_3" />
+<path d="M495,110l1.1,0l0,201.7l-1.1,0L495,110Z" class="g2_3" />
+<path d="M825,110l1.1,0l0,201.7l-1.1,0L825,110Z" class="g2_3" />
+<path d="M165,110l331.1,0l0,1.1l-331.1,0l0,-1.1Z" class="g2_3" />
+<path d="M165,310.5l331.1,0l0,1.2l-331.1,0l0,-1.2Z" class="g2_3" />
+<path d="M165,110l1.1,0l0,201.7l-1.1,0L165,110Z" class="g2_3" />
+<path d="M495,110l1.1,0l0,201.7l-1.1,0L495,110Z" class="g2_3" />
+<image x="226" y="121" width="209" height="157" xlink:href="img/1.png" />
+<image x="602" y="121" width="117" height="166" xlink:href="img/2.png" />
+<image x="221" y="321" width="218" height="165" xlink:href="img/3.png" />
+<image x="598" y="321" width="126" height="180" xlink:href="img/4.png" />
+<image x="215" y="530" width="231" height="175" xlink:href="img/5.png" />
+<image x="592" y="530" width="136" height="196" xlink:href="img/6.png" />
+</svg>
