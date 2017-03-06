@@ -1,11 +1,11 @@
 {
   "SaveName": "Desperate Gods: Tabletop Simulator Edition",
   "GameMode": "Desperate Gods: Tabletop Simulator Edition",
-  "Date": "3/5/2017 12:28:06 AM",
+  "Date": "3/6/2017 2:39:44 PM",
   "Table": "Table_Custom_Square",
-  "TableURL": "https://github.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/raw/master/files/images/Table_Texture.png",
+  "TableURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/images/Table_Texture.png",
   "Sky": "Sky_Museum",
-  "Note": "Please view the tablet for rules of the game",
+  "Note": "Please view the tablet  or go to https://goo.gl/5XYSjr for rules     ",
   "Rules": "",
   "PlayerTurn": "",
   "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend",
@@ -16,8 +16,8 @@
     "Snapping": false,
     "Offset": false,
     "BothSnapping": false,
-    "xSize": 0.5,
-    "ySize": 0.5,
+    "xSize": 1.0,
+    "ySize": 1.0,
     "PosOffset": {
       "x": 0.0,
       "y": 1.0,
@@ -52,7 +52,7 @@
           "rotX": 0.0,
           "rotY": 90.3072052,
           "rotZ": 0.0,
-          "scaleX": 18.82992,
+          "scaleX": 18.8304081,
           "scaleY": 7.0,
           "scaleZ": 4.56077
         }
@@ -66,7 +66,7 @@
           "rotX": 0.0,
           "rotY": 179.746078,
           "rotZ": 0.0,
-          "scaleX": 18.662653,
+          "scaleX": 18.6621647,
           "scaleY": 7.0,
           "scaleZ": 4.31680441
         }
@@ -91,47 +91,14 @@
   "VectorLines": [],
   "ObjectStates": [
     {
-      "Name": "Bag",
-      "Transform": {
-        "posX": 11.8395472,
-        "posY": 0.774973333,
-        "posZ": -9.131504,
-        "rotX": 9.188076E-07,
-        "rotY": 2.81611938E-05,
-        "rotZ": -1.0855598E-06,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 0.041811537,
-        "g": 0.03827713,
-        "b": 0.0344547071
-      },
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "MaterialIndex": -1,
-      "MeshIndex": -1,
-      "Number": 0,
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "c5d01e"
-    },
-    {
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 10.1792517,
+        "posX": 8.438595,
         "posY": 0.9600003,
-        "posZ": -12.1896992,
-        "rotX": 8.071005E-07,
-        "rotY": 180.120377,
-        "rotZ": 1.10177E-06,
+        "posZ": -8.62944,
+        "rotX": 1.40211512E-06,
+        "rotY": 180.020645,
+        "rotZ": -1.38150158E-08,
         "scaleX": 1.70051658,
         "scaleY": 1.0,
         "scaleZ": 1.70051658
@@ -185,7 +152,7 @@
         "posY": -3.68036318,
         "posZ": 9.069494,
         "rotX": 4.137189E-08,
-        "rotY": 180.000336,
+        "rotY": 180.000366,
         "rotZ": 3.8823746E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -206,8 +173,8 @@
       "Tooltip": true,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/painted_board.obj",
-        "DiffuseURL": "https://github.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/raw/master/files/diffuse/painted_board_c_text_extra.png",
-        "NormalURL": "https://github.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/raw/master/files/normal/painted_board_n.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/painted_board_c_text_extra.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/painted_board_n.png",
         "ColliderURL": "",
         "Convex": true,
         "MaterialIndex": 3,
@@ -238,7 +205,7 @@
           },
           "Rotation": {
             "x": -4.13718944E-08,
-            "y": -1.36603594E-05,
+            "y": -1.36603576E-05,
             "z": -3.88237353E-08
           }
         },
@@ -250,7 +217,7 @@
           },
           "Rotation": {
             "x": -4.13718944E-08,
-            "y": -1.36603594E-05,
+            "y": -1.36603576E-05,
             "z": -3.88237353E-08
           }
         },
@@ -262,7 +229,7 @@
           },
           "Rotation": {
             "x": -4.13718944E-08,
-            "y": -1.36603594E-05,
+            "y": -1.36603576E-05,
             "z": -3.88237353E-08
           }
         },
@@ -319,12 +286,12 @@
     {
       "Name": "Infinite_Bag",
       "Transform": {
-        "posX": 8.460427,
-        "posY": 0.94299984,
-        "posZ": -8.804536,
-        "rotX": 1.72486068E-07,
-        "rotY": 1.03929779E-06,
-        "rotZ": -7.012673E-07,
+        "posX": 11.6219215,
+        "posY": 0.943,
+        "posZ": -7.523552,
+        "rotX": -1.84197461E-06,
+        "rotY": 1.29646414E-05,
+        "rotZ": 7.23133951E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -334,7 +301,7 @@
       "ColorDiffuse": {
         "r": 0.905,
         "g": 0.898,
-        "b": 0.171999663
+        "b": 0.1719996
       },
       "Locked": true,
       "Grid": true,
@@ -374,9 +341,9 @@
           "Sticky": true,
           "Tooltip": true,
           "CustomMesh": {
-            "MeshURL": "https://github.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/raw/master/files/objects/coin.obj",
-            "DiffuseURL": "https://github.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/raw/master/files/diffuse/coin_c.png",
-            "NormalURL": "https://github.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/raw/master/files/normal/coin_n.png",
+            "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/coin.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/coin_c.png",
+            "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/coin_n.png",
             "ColliderURL": "",
             "Convex": true,
             "MaterialIndex": 1,
@@ -391,1888 +358,13 @@
       "GUID": "0ea369"
     },
     {
-      "Name": "DeckCustom",
-      "Transform": {
-        "posX": 1.886866,
-        "posY": 1.66387868,
-        "posZ": -0.008173504,
-        "rotX": -5.3615274E-08,
-        "rotY": 90.01339,
-        "rotZ": 180.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "SidewaysCard": false,
-      "DeckIDs": [
-        306,
-        300,
-        303,
-        301,
-        302,
-        305,
-        304
-      ],
-      "CustomDeck": {
-        "3": {
-          "FaceURL": "https://github.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/raw/master/files/images/dungeon_deck.png",
-          "BackURL": "https://github.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/raw/master/files/images/Dungeon_Back.png",
-          "NumWidth": 10,
-          "NumHeight": 7,
-          "BackIsHidden": true,
-          "UniqueBack": false
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "ContainedObjects": [
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0.00108872424,
-            "posY": 1.750145,
-            "posZ": -0.00180367113,
-            "rotX": 3.23542881,
-            "rotY": 179.958,
-            "rotZ": 179.996277,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 306,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "b070f4"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0.00108872424,
-            "posY": 1.750145,
-            "posZ": -0.00180367113,
-            "rotX": 3.23542881,
-            "rotY": 179.958,
-            "rotZ": 179.996277,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 300,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "b070f4"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0.00108872424,
-            "posY": 1.750145,
-            "posZ": -0.00180367113,
-            "rotX": 3.23542881,
-            "rotY": 179.958,
-            "rotZ": 179.996277,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 303,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "b070f4"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0.00108872424,
-            "posY": 1.750145,
-            "posZ": -0.00180367113,
-            "rotX": 3.23542881,
-            "rotY": 179.958,
-            "rotZ": 179.996277,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 301,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "b070f4"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0.00108872424,
-            "posY": 1.750145,
-            "posZ": -0.00180367113,
-            "rotX": 3.23542881,
-            "rotY": 179.958,
-            "rotZ": 179.996277,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 302,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "b070f4"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0.00108872424,
-            "posY": 1.750145,
-            "posZ": -0.00180367113,
-            "rotX": 3.23542881,
-            "rotY": 179.958,
-            "rotZ": 179.996277,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 305,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "b070f4"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 0.00108872424,
-            "posY": 1.750145,
-            "posZ": -0.00180367113,
-            "rotX": 3.23542881,
-            "rotY": 179.958,
-            "rotZ": 179.996277,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 304,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "b070f4"
-        }
-      ],
-      "GUID": "cb2a45"
-    },
-    {
-      "Name": "DeckCustom",
-      "Transform": {
-        "posX": 1.89907,
-        "posY": 1.660216,
-        "posZ": -2.2822473,
-        "rotX": -3.30998745E-07,
-        "rotY": 89.99689,
-        "rotZ": 180.000015,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "SidewaysCard": false,
-      "DeckIDs": [
-        405,
-        402,
-        400,
-        403,
-        404,
-        401
-      ],
-      "CustomDeck": {
-        "4": {
-          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/165905884860647183/CD15E6EAB1F55AF1D2B3361FC181ED77E1071B99/",
-          "BackURL": "http://cloud-3.steamusercontent.com/ugc/165905884860647622/EF7087FF1B0EA15164193F49BB2B5E9EEE0333D8/",
-          "NumWidth": 10,
-          "NumHeight": 7,
-          "BackIsHidden": true,
-          "UniqueBack": false
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "ContainedObjects": [
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00423111161,
-            "posY": 1.78686416,
-            "posZ": -0.0018620604,
-            "rotX": -0.0002383546,
-            "rotY": 179.872208,
-            "rotZ": 173.290649,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 405,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "1615e1"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00423111161,
-            "posY": 1.78686416,
-            "posZ": -0.0018620604,
-            "rotX": -0.0002383546,
-            "rotY": 179.872208,
-            "rotZ": 173.290649,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 402,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "1615e1"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00423111161,
-            "posY": 1.78686416,
-            "posZ": -0.0018620604,
-            "rotX": -0.0002383546,
-            "rotY": 179.872208,
-            "rotZ": 173.290649,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 400,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "1615e1"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00423111161,
-            "posY": 1.78686416,
-            "posZ": -0.0018620604,
-            "rotX": -0.0002383546,
-            "rotY": 179.872208,
-            "rotZ": 173.290649,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 403,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "1615e1"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00423111161,
-            "posY": 1.78686416,
-            "posZ": -0.0018620604,
-            "rotX": -0.0002383546,
-            "rotY": 179.872208,
-            "rotZ": 173.290649,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 404,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "1615e1"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00423111161,
-            "posY": 1.78686416,
-            "posZ": -0.0018620604,
-            "rotX": -0.0002383546,
-            "rotY": 179.872208,
-            "rotZ": 173.290649,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 401,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "1615e1"
-        }
-      ],
-      "GUID": "fe76fb"
-    },
-    {
-      "Name": "DeckCustom",
-      "Transform": {
-        "posX": 1.89540744,
-        "posY": 1.6638788,
-        "posZ": 4.58046436,
-        "rotX": 6.271235E-07,
-        "rotY": 90.0336456,
-        "rotZ": 180.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "SidewaysCard": false,
-      "DeckIDs": [
-        506,
-        504,
-        503,
-        501,
-        500,
-        505,
-        502
-      ],
-      "CustomDeck": {
-        "5": {
-          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/165905884864590937/DAA20F8FA0D6AB1A2AEA73B925FF3CC7CAC31E86/",
-          "BackURL": "http://cloud-3.steamusercontent.com/ugc/165905884860638490/E2C5A56D3EA1958C0B5F95E5808A9AAB1A9B9CC7/",
-          "NumWidth": 10,
-          "NumHeight": 7,
-          "BackIsHidden": true,
-          "UniqueBack": false
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "ContainedObjects": [
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 14.2747068,
-            "posY": 1.5527246,
-            "posZ": 0.69200927,
-            "rotX": 359.958252,
-            "rotY": 90.01132,
-            "rotZ": 180.013672,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 506,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/165905884864590937/DAA20F8FA0D6AB1A2AEA73B925FF3CC7CAC31E86/",
-              "BackURL": "http://cloud-3.steamusercontent.com/ugc/165905884860638490/E2C5A56D3EA1958C0B5F95E5808A9AAB1A9B9CC7/",
-              "NumWidth": 10,
-              "NumHeight": 7,
-              "BackIsHidden": true,
-              "UniqueBack": false
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "GUID": "eabef7"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 14.2747869,
-            "posY": 1.40393221,
-            "posZ": 0.691996038,
-            "rotX": 359.985931,
-            "rotY": 90.01173,
-            "rotZ": 180.003647,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 504,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/165905884864590937/DAA20F8FA0D6AB1A2AEA73B925FF3CC7CAC31E86/",
-              "BackURL": "http://cloud-3.steamusercontent.com/ugc/165905884860638490/E2C5A56D3EA1958C0B5F95E5808A9AAB1A9B9CC7/",
-              "NumWidth": 10,
-              "NumHeight": 7,
-              "BackIsHidden": true,
-              "UniqueBack": false
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "GUID": "b737db"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00456255954,
-            "posY": 1.78683841,
-            "posZ": -0.00143894844,
-            "rotX": -0.000192846535,
-            "rotY": 179.8814,
-            "rotZ": 173.2918,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 503,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "eabef7"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00456255954,
-            "posY": 1.78683841,
-            "posZ": -0.00143894844,
-            "rotX": -0.000192846535,
-            "rotY": 179.8814,
-            "rotZ": 173.2918,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 501,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "eabef7"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00456255954,
-            "posY": 1.78683841,
-            "posZ": -0.00143894844,
-            "rotX": -0.000192846535,
-            "rotY": 179.8814,
-            "rotZ": 173.2918,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 500,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "eabef7"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00456255954,
-            "posY": 1.78683841,
-            "posZ": -0.00143894844,
-            "rotX": -0.000192846535,
-            "rotY": 179.8814,
-            "rotZ": 173.2918,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 505,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "eabef7"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00456255954,
-            "posY": 1.78683841,
-            "posZ": -0.00143894844,
-            "rotX": -0.000192846535,
-            "rotY": 179.8814,
-            "rotZ": 173.2918,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 502,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "eabef7"
-        }
-      ],
-      "GUID": "7a1e84"
-    },
-    {
-      "Name": "DeckCustom",
-      "Transform": {
-        "posX": 8.352313,
-        "posY": 1.69107318,
-        "posZ": -3.73152041,
-        "rotX": -8.57855468E-07,
-        "rotY": 179.976959,
-        "rotZ": 180.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "SidewaysCard": false,
-      "DeckIDs": [
-        604,
-        616,
-        615,
-        608,
-        606,
-        611,
-        607,
-        613,
-        609,
-        614,
-        605,
-        610,
-        602,
-        600,
-        603,
-        612,
-        601
-      ],
-      "CustomDeck": {
-        "6": {
-          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/165905884865639258/907C35B16995C3525A7D66EE7B11300B2B6AB528/",
-          "BackURL": "http://cloud-3.steamusercontent.com/ugc/165905884860634355/CB0CFD66A1C389925F6EE7610D3B1C85D97AA166/",
-          "NumWidth": 10,
-          "NumHeight": 7,
-          "BackIsHidden": true,
-          "UniqueBack": false
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "ContainedObjects": [
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 6.58681726,
-            "posY": 1.2300117,
-            "posZ": -12.5427055,
-            "rotX": 0.009562792,
-            "rotY": 89.99951,
-            "rotZ": 179.999939,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 604,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "6": {
-              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/165905884865639258/907C35B16995C3525A7D66EE7B11300B2B6AB528/",
-              "BackURL": "http://cloud-3.steamusercontent.com/ugc/165905884860634355/CB0CFD66A1C389925F6EE7610D3B1C85D97AA166/",
-              "NumWidth": 10,
-              "NumHeight": 7,
-              "BackIsHidden": true,
-              "UniqueBack": false
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "GUID": "aa5124"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 5.875656,
-            "posY": 1.22016883,
-            "posZ": -12.278471,
-            "rotX": 359.9902,
-            "rotY": 180.012344,
-            "rotZ": 180.006027,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 616,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "6": {
-              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/165905884865639258/907C35B16995C3525A7D66EE7B11300B2B6AB528/",
-              "BackURL": "http://cloud-3.steamusercontent.com/ugc/165905884860634355/CB0CFD66A1C389925F6EE7610D3B1C85D97AA166/",
-              "NumWidth": 10,
-              "NumHeight": 7,
-              "BackIsHidden": true,
-              "UniqueBack": false
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "GUID": "fa5552"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 7.38991976,
-            "posY": 1.21089828,
-            "posZ": -13.3412428,
-            "rotX": 0.0420111828,
-            "rotY": 179.940018,
-            "rotZ": 180.09166,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 615,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "6": {
-              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/165905884865639258/907C35B16995C3525A7D66EE7B11300B2B6AB528/",
-              "BackURL": "http://cloud-3.steamusercontent.com/ugc/165905884860634355/CB0CFD66A1C389925F6EE7610D3B1C85D97AA166/",
-              "NumWidth": 10,
-              "NumHeight": 7,
-              "BackIsHidden": true,
-              "UniqueBack": false
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "GUID": "114f6c"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": 6.666977,
-            "posY": 1.20099473,
-            "posZ": -12.2974653,
-            "rotX": -0.000531723839,
-            "rotY": 179.98,
-            "rotZ": 180.001312,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 608,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "6": {
-              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/165905884865639258/907C35B16995C3525A7D66EE7B11300B2B6AB528/",
-              "BackURL": "http://cloud-3.steamusercontent.com/ugc/165905884860634355/CB0CFD66A1C389925F6EE7610D3B1C85D97AA166/",
-              "NumWidth": 10,
-              "NumHeight": 7,
-              "BackIsHidden": true,
-              "UniqueBack": false
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "GUID": "8aeb62"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.0011509438,
-            "posY": 1.78718233,
-            "posZ": 7.79940237E-05,
-            "rotX": 2.248816E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.273956,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 606,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "fa5552"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.0011509438,
-            "posY": 1.78718233,
-            "posZ": 7.79940237E-05,
-            "rotX": 2.248816E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.273956,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 611,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "fa5552"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.0011509438,
-            "posY": 1.78718233,
-            "posZ": 7.79940237E-05,
-            "rotX": 2.248816E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.273956,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 607,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "fa5552"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.0011509438,
-            "posY": 1.78718233,
-            "posZ": 7.79940237E-05,
-            "rotX": 2.248816E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.273956,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 613,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "fa5552"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.0011509438,
-            "posY": 1.78718233,
-            "posZ": 7.79940237E-05,
-            "rotX": 2.248816E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.273956,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 609,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "fa5552"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.0011509438,
-            "posY": 1.78718233,
-            "posZ": 7.79940237E-05,
-            "rotX": 2.248816E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.273956,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 614,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "fa5552"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.0011509438,
-            "posY": 1.78718233,
-            "posZ": 7.79940237E-05,
-            "rotX": 2.248816E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.273956,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 605,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "fa5552"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.0011509438,
-            "posY": 1.78718233,
-            "posZ": 7.79940237E-05,
-            "rotX": 2.248816E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.273956,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 610,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "fa5552"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.0011509438,
-            "posY": 1.78718233,
-            "posZ": 7.79940237E-05,
-            "rotX": 2.248816E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.273956,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 602,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "fa5552"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.0011509438,
-            "posY": 1.78718233,
-            "posZ": 7.79940237E-05,
-            "rotX": 2.248816E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.273956,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 600,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "fa5552"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.0011509438,
-            "posY": 1.78718233,
-            "posZ": 7.79940237E-05,
-            "rotX": 2.248816E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.273956,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 603,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "fa5552"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.0011509438,
-            "posY": 1.78718233,
-            "posZ": 7.79940237E-05,
-            "rotX": 2.248816E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.273956,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 612,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "fa5552"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.0011509438,
-            "posY": 1.78718233,
-            "posZ": 7.79940237E-05,
-            "rotX": 2.248816E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.273956,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 601,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "fa5552"
-        }
-      ],
-      "GUID": "a319e3"
-    },
-    {
-      "Name": "DeckCustom",
-      "Transform": {
-        "posX": 1.90573037,
-        "posY": 1.66387868,
-        "posZ": 2.26297426,
-        "rotX": 3.77698768E-07,
-        "rotY": 89.99913,
-        "rotZ": 180.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "SidewaysCard": false,
-      "DeckIDs": [
-        702,
-        700,
-        703,
-        704,
-        705,
-        701,
-        706
-      ],
-      "CustomDeck": {
-        "7": {
-          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/165905884865640244/5FE3A207F6B8FBD8E31418B9EFCD889EA6926E6B/",
-          "BackURL": "http://cloud-3.steamusercontent.com/ugc/165905884860643823/71637615AF2188B36348865FB77F58AE4DFA28FD/",
-          "NumWidth": 10,
-          "NumHeight": 7,
-          "BackIsHidden": true,
-          "UniqueBack": false
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "ContainedObjects": [
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00115037314,
-            "posY": 1.78718078,
-            "posZ": 7.779267E-05,
-            "rotX": 8.65889263E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.274017,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 702,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "6904b0"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00115037314,
-            "posY": 1.78718078,
-            "posZ": 7.779267E-05,
-            "rotX": 8.65889263E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.274017,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 700,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "6904b0"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00115037314,
-            "posY": 1.78718078,
-            "posZ": 7.779267E-05,
-            "rotX": 8.65889263E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.274017,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 703,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "6904b0"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00115037314,
-            "posY": 1.78718078,
-            "posZ": 7.779267E-05,
-            "rotX": 8.65889263E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.274017,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 704,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "6904b0"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00115037314,
-            "posY": 1.78718078,
-            "posZ": 7.779267E-05,
-            "rotX": 8.65889263E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.274017,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 705,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "6904b0"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00115037314,
-            "posY": 1.78718078,
-            "posZ": 7.779267E-05,
-            "rotX": 8.65889263E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.274017,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 701,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "6904b0"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.00115037314,
-            "posY": 1.78718078,
-            "posZ": 7.779267E-05,
-            "rotX": 8.65889263E-07,
-            "rotY": 180.006119,
-            "rotZ": 173.274017,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "CardID": 706,
-          "SidewaysCard": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "ContainedObjects": [],
-          "GUID": "6904b0"
-        }
-      ],
-      "GUID": "37746f"
-    },
-    {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -10.68741,
-        "posY": 1.35266387,
-        "posZ": -9.398489,
-        "rotX": 270.0,
-        "rotY": 3.58995223,
-        "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868815730/940CF63EBE2FDD61C25CAD780460640D032B541D/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860832547/0DAACA0663C0E2C6C68DA0C809C9206A4447D0E1/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860832802/4AA68AD70F3F871D6F41674ADCAFF2DFDF04BF40/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 2,
-        "TypeIndex": 2,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 0.7372549,
-            "g": 0.7372549,
-            "b": 0.7372549
-          },
-          "SpecularIntensity": 0.9,
-          "SpecularSharpness": 7.0,
-          "FresnelStrength": 0.8
-        },
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "88660a"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -11.8990831,
-        "posY": 1.35473692,
-        "posZ": -9.394537,
-        "rotX": 90.0,
-        "rotY": 3.58995819,
-        "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868815730/940CF63EBE2FDD61C25CAD780460640D032B541D/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860832547/0DAACA0663C0E2C6C68DA0C809C9206A4447D0E1/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860832802/4AA68AD70F3F871D6F41674ADCAFF2DFDF04BF40/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 2,
-        "TypeIndex": 2,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 0.7372549,
-            "g": 0.7372549,
-            "b": 0.7372549
-          },
-          "SpecularIntensity": 0.9,
-          "SpecularSharpness": 7.0,
-          "FresnelStrength": 0.8
-        },
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "b5604e"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -11.9099178,
-        "posY": 1.35312915,
-        "posZ": -8.067673,
-        "rotX": -8.319942E-07,
-        "rotY": 3.58996034,
+        "posX": 10.9143162,
+        "posY": 1.35312891,
+        "posZ": -9.940596,
+        "rotX": 4.695144E-07,
+        "rotY": 107.2359,
         "rotZ": 180.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
@@ -2292,9 +384,9 @@
       "Sticky": true,
       "Tooltip": true,
       "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868815730/940CF63EBE2FDD61C25CAD780460640D032B541D/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860832547/0DAACA0663C0E2C6C68DA0C809C9206A4447D0E1/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860832802/4AA68AD70F3F871D6F41674ADCAFF2DFDF04BF40/",
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/dice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/d6_black_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/d6_n.png",
         "ColliderURL": "",
         "Convex": true,
         "MaterialIndex": 2,
@@ -2314,56 +406,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "GUID": "c8618f"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -10.6865435,
-        "posY": 1.3524369,
-        "posZ": -8.088853,
-        "rotX": 5.76297225E-06,
-        "rotY": 3.59005284,
-        "rotZ": 89.99999,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868815730/940CF63EBE2FDD61C25CAD780460640D032B541D/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860832547/0DAACA0663C0E2C6C68DA0C809C9206A4447D0E1/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860832802/4AA68AD70F3F871D6F41674ADCAFF2DFDF04BF40/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 2,
-        "TypeIndex": 2,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 0.7372549,
-            "g": 0.7372549,
-            "b": 0.7372549
-          },
-          "SpecularIntensity": 0.9,
-          "SpecularSharpness": 7.0,
-          "FresnelStrength": 0.8
-        },
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "68e459"
     },
     {
       "Name": "Custom_Model",
@@ -2392,9 +434,9 @@
       "Sticky": true,
       "Tooltip": true,
       "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868823234/58E3FF112E9F8693F390AE69744EA1DFE85BAFB7/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860700487/9DF07E03947B1FC59FFB1D84FACAD55C9D80ADFF/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860701006/479F85B8F9617B9DE25F8E4C9264935B93820545/",
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/placemat.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/placemat_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/placemat_n.png",
         "ColliderURL": "",
         "Convex": true,
         "MaterialIndex": 3,
@@ -2408,12 +450,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.5284223,
-        "posY": 0.9809593,
-        "posZ": -10.9957752,
-        "rotX": -0.00013382727,
-        "rotY": 180.0054,
-        "rotZ": -2.08256733E-05,
+        "posX": -0.340494424,
+        "posY": 0.980831146,
+        "posZ": -10.8309126,
+        "rotX": -0.003101048,
+        "rotY": 180.003952,
+        "rotZ": -0.000417394069,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2432,9 +474,9 @@
       "Sticky": true,
       "Tooltip": true,
       "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868823234/58E3FF112E9F8693F390AE69744EA1DFE85BAFB7/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860700487/9DF07E03947B1FC59FFB1D84FACAD55C9D80ADFF/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860701006/479F85B8F9617B9DE25F8E4C9264935B93820545/",
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/placemat.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/placemat_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/placemat_n.png",
         "ColliderURL": "",
         "Convex": true,
         "MaterialIndex": 3,
@@ -2477,7 +519,7 @@
           },
           "Rotation": {
             "x": -9.946722E-08,
-            "y": 359.974548,
+            "y": 359.9745,
             "z": 180.000015
           }
         },
@@ -2498,12 +540,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": 15.4405947,
-        "posY": 0.980964839,
-        "posZ": 1.22720528,
-        "rotX": -4.65708254E-08,
-        "rotY": 90.00136,
-        "rotZ": -1.98643111E-08,
+        "posX": 14.6078663,
+        "posY": 0.98085314,
+        "posZ": 0.990431368,
+        "rotX": -0.00253062183,
+        "rotY": 90.00796,
+        "rotZ": -0.000342367654,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2522,9 +564,9 @@
       "Sticky": true,
       "Tooltip": true,
       "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868823234/58E3FF112E9F8693F390AE69744EA1DFE85BAFB7/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860700487/9DF07E03947B1FC59FFB1D84FACAD55C9D80ADFF/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860701006/479F85B8F9617B9DE25F8E4C9264935B93820545/",
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/placemat.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/placemat_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/placemat_n.png",
         "ColliderURL": "",
         "Convex": true,
         "MaterialIndex": 3,
@@ -2567,7 +609,7 @@
           },
           "Rotation": {
             "x": -9.946722E-08,
-            "y": 359.974518,
+            "y": 359.9745,
             "z": 180.000015
           }
         },
@@ -2588,12 +630,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -0.705838144,
-        "posY": 0.9809649,
-        "posZ": 13.7019138,
-        "rotX": -2.136665E-08,
-        "rotY": 0.00127912522,
-        "rotZ": -2.091848E-08,
+        "posX": -0.7226242,
+        "posY": 0.980837941,
+        "posZ": 12.8540249,
+        "rotX": -0.002890094,
+        "rotY": 0.002301963,
+        "rotZ": -0.000426456449,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2612,9 +654,9 @@
       "Sticky": true,
       "Tooltip": true,
       "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868823234/58E3FF112E9F8693F390AE69744EA1DFE85BAFB7/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860700487/9DF07E03947B1FC59FFB1D84FACAD55C9D80ADFF/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860701006/479F85B8F9617B9DE25F8E4C9264935B93820545/",
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/placemat.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/placemat_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/placemat_n.png",
         "ColliderURL": "",
         "Convex": true,
         "MaterialIndex": 3,
@@ -2657,7 +699,7 @@
           },
           "Rotation": {
             "x": -9.946722E-08,
-            "y": 359.974518,
+            "y": 359.9745,
             "z": 180.000015
           }
         },
@@ -2678,12 +720,12 @@
     {
       "Name": "Custom_Model",
       "Transform": {
-        "posX": -16.99149,
-        "posY": 0.9809648,
-        "posZ": 0.7626787,
-        "rotX": 2.97637328E-08,
-        "rotY": 270.0,
-        "rotZ": 4.11759345E-07,
+        "posX": -15.9956875,
+        "posY": 0.980857551,
+        "posZ": 0.6770811,
+        "rotX": -0.00250514247,
+        "rotY": 269.999817,
+        "rotZ": -0.000364263222,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2702,9 +744,9 @@
       "Sticky": true,
       "Tooltip": true,
       "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868823234/58E3FF112E9F8693F390AE69744EA1DFE85BAFB7/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860700487/9DF07E03947B1FC59FFB1D84FACAD55C9D80ADFF/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860701006/479F85B8F9617B9DE25F8E4C9264935B93820545/",
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/placemat.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/placemat_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/placemat_n.png",
         "ColliderURL": "",
         "Convex": true,
         "MaterialIndex": 3,
@@ -2747,7 +789,7 @@
           },
           "Rotation": {
             "x": -9.946722E-08,
-            "y": 359.974518,
+            "y": 359.9745,
             "z": 180.000015
           }
         },
@@ -2766,894 +808,14 @@
       ]
     },
     {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 3.00936484,
-        "posY": 1.32505774,
-        "posZ": -8.753393,
-        "rotX": 0.000134891277,
-        "rotY": -0.000115556548,
-        "rotZ": 1.8090348E-05,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868842866/6FD4E0FF536F0B8DE04CA51ADBC26FAA67CA9976/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804203/D57AB1A045D49D2E57A75E796FA56E6C423AB396/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804487/9AFE1D4A3A7981733A6C5906848213BB664DC20A/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 1,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "266bbf"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 2.95884,
-        "posY": 1.32506013,
-        "posZ": -9.841451,
-        "rotX": 0.000135925642,
-        "rotY": 6.895049E-05,
-        "rotZ": 2.17620873E-05,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868842866/6FD4E0FF536F0B8DE04CA51ADBC26FAA67CA9976/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804203/D57AB1A045D49D2E57A75E796FA56E6C423AB396/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804487/9AFE1D4A3A7981733A6C5906848213BB664DC20A/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 1,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "0dce8c"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 13.2059689,
-        "posY": 1.3250668,
-        "posZ": 4.72411966,
-        "rotX": 3.28072474E-07,
-        "rotY": 0.000112350062,
-        "rotZ": -2.27805481E-06,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868842866/6FD4E0FF536F0B8DE04CA51ADBC26FAA67CA9976/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804203/D57AB1A045D49D2E57A75E796FA56E6C423AB396/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804487/9AFE1D4A3A7981733A6C5906848213BB664DC20A/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 1,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "e15f0b"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 14.3056316,
-        "posY": 1.325067,
-        "posZ": 4.73867,
-        "rotX": 2.47371349E-06,
-        "rotY": 3.24172252E-05,
-        "rotZ": 2.19319622E-06,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868842866/6FD4E0FF536F0B8DE04CA51ADBC26FAA67CA9976/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804203/D57AB1A045D49D2E57A75E796FA56E6C423AB396/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804487/9AFE1D4A3A7981733A6C5906848213BB664DC20A/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 1,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "3336f7"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 15.4381886,
-        "posY": 1.3250668,
-        "posZ": 4.747669,
-        "rotX": -2.903439E-06,
-        "rotY": 7.116216E-05,
-        "rotZ": -6.91391142E-06,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868842866/6FD4E0FF536F0B8DE04CA51ADBC26FAA67CA9976/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804203/D57AB1A045D49D2E57A75E796FA56E6C423AB396/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804487/9AFE1D4A3A7981733A6C5906848213BB664DC20A/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 1,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "ad55ce"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -4.24504566,
-        "posY": 1.32506692,
-        "posZ": 11.3861341,
-        "rotX": 2.62954654E-06,
-        "rotY": -2.70845976E-05,
-        "rotZ": 5.355068E-07,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868842866/6FD4E0FF536F0B8DE04CA51ADBC26FAA67CA9976/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804203/D57AB1A045D49D2E57A75E796FA56E6C423AB396/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804487/9AFE1D4A3A7981733A6C5906848213BB664DC20A/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 1,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "6d6d8d"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -4.214884,
-        "posY": 1.32506692,
-        "posZ": 12.5548811,
-        "rotX": -5.48231128E-06,
-        "rotY": 0.000770862331,
-        "rotZ": 1.26023366E-07,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868842866/6FD4E0FF536F0B8DE04CA51ADBC26FAA67CA9976/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804203/D57AB1A045D49D2E57A75E796FA56E6C423AB396/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804487/9AFE1D4A3A7981733A6C5906848213BB664DC20A/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 1,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "531d18"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -4.214478,
-        "posY": 1.32506692,
-        "posZ": 13.7167225,
-        "rotX": 2.22512676E-06,
-        "rotY": -2.94308138E-05,
-        "rotZ": -2.55152884E-07,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868842866/6FD4E0FF536F0B8DE04CA51ADBC26FAA67CA9976/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804203/D57AB1A045D49D2E57A75E796FA56E6C423AB396/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804487/9AFE1D4A3A7981733A6C5906848213BB664DC20A/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 1,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "27fb8f"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -14.7741652,
-        "posY": 1.3250668,
-        "posZ": -2.75802732,
-        "rotX": 2.33699461E-06,
-        "rotY": 0.000136962379,
-        "rotZ": -1.40587872E-06,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868842866/6FD4E0FF536F0B8DE04CA51ADBC26FAA67CA9976/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804203/D57AB1A045D49D2E57A75E796FA56E6C423AB396/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804487/9AFE1D4A3A7981733A6C5906848213BB664DC20A/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 1,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "6edda6"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -15.8573589,
-        "posY": 1.3250668,
-        "posZ": -2.76480961,
-        "rotX": 2.00790646E-06,
-        "rotY": 0.0001500438,
-        "rotZ": 4.50337438E-06,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868842866/6FD4E0FF536F0B8DE04CA51ADBC26FAA67CA9976/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804203/D57AB1A045D49D2E57A75E796FA56E6C423AB396/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804487/9AFE1D4A3A7981733A6C5906848213BB664DC20A/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 1,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "4b7797"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -17.0025845,
-        "posY": 1.3250668,
-        "posZ": -2.74731421,
-        "rotX": 5.17635954E-07,
-        "rotY": 0.000189297876,
-        "rotZ": 1.01043325E-08,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868842866/6FD4E0FF536F0B8DE04CA51ADBC26FAA67CA9976/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804203/D57AB1A045D49D2E57A75E796FA56E6C423AB396/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804487/9AFE1D4A3A7981733A6C5906848213BB664DC20A/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 1,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "95ab6e"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 5.4071064,
-        "posY": 1.573717,
-        "posZ": -4.469708,
-        "rotX": -1.24353282E-05,
-        "rotY": 180.001984,
-        "rotZ": -1.56872113E-06,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868867101/FC5672A5F27FBD262EBBC6636C3FF06ACCC969B7/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680003/85E0644E160DEFB30DE3F43BD81F0FB37FF51EBC/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680324/7DA9A632F3312152F86C109ADA822C5D6BD8FF12/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 1,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 0.8745098,
-            "g": 0.8117647,
-            "b": 0.745098054
-          },
-          "SpecularIntensity": 0.05,
-          "SpecularSharpness": 3.0,
-          "FresnelStrength": 1.0
-        },
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "041d19"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 6.18516,
-        "posY": 1.573717,
-        "posZ": -4.462386,
-        "rotX": 4.19784641E-07,
-        "rotY": 180.004883,
-        "rotZ": 5.51422261E-07,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868869297/EA0072CF1648455D7B4CFA03658007E6F6FFD4BA/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680003/85E0644E160DEFB30DE3F43BD81F0FB37FF51EBC/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680324/7DA9A632F3312152F86C109ADA822C5D6BD8FF12/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 1,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 0.8745098,
-            "g": 0.8117647,
-            "b": 0.745098054
-          },
-          "SpecularIntensity": 0.05,
-          "SpecularSharpness": 3.0,
-          "FresnelStrength": 1.0
-        },
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "d5cc04"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 5.384608,
-        "posY": 1.57371712,
-        "posZ": -5.23159456,
-        "rotX": -2.22257427E-06,
-        "rotY": 180.0048,
-        "rotZ": -9.94598E-06,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868869916/4BAF1E7A71C1B269964841F4B5EDB1D4C99EFFE4/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680003/85E0644E160DEFB30DE3F43BD81F0FB37FF51EBC/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680324/7DA9A632F3312152F86C109ADA822C5D6BD8FF12/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 1,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 0.8745098,
-            "g": 0.8117647,
-            "b": 0.745098054
-          },
-          "SpecularIntensity": 0.05,
-          "SpecularSharpness": 3.0,
-          "FresnelStrength": 1.0
-        },
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "e34327"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -6.073432,
-        "posY": 0.9528319,
-        "posZ": -9.551343,
-        "rotX": -6.33339539E-07,
-        "rotY": 180.004883,
-        "rotZ": -1.44807939E-06,
-        "scaleX": 1.99999917,
-        "scaleY": 1.99999917,
-        "scaleZ": 1.99999917
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868867101/FC5672A5F27FBD262EBBC6636C3FF06ACCC969B7/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680003/85E0644E160DEFB30DE3F43BD81F0FB37FF51EBC/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680324/7DA9A632F3312152F86C109ADA822C5D6BD8FF12/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 1,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 0.8745098,
-            "g": 0.8117647,
-            "b": 0.745098054
-          },
-          "SpecularIntensity": 0.05,
-          "SpecularSharpness": 3.0,
-          "FresnelStrength": 1.0
-        },
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "9ccb0e"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 14.0253983,
-        "posY": 0.9528318,
-        "posZ": -4.63030052,
-        "rotX": 4.031905E-06,
-        "rotY": 90.0,
-        "rotZ": 4.26609319E-07,
-        "scaleX": 1.99999917,
-        "scaleY": 1.99999917,
-        "scaleZ": 1.99999917
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868870462/DD723AC8DE9944D6B124321C22B1C4D5CA21A098/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680003/85E0644E160DEFB30DE3F43BD81F0FB37FF51EBC/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680324/7DA9A632F3312152F86C109ADA822C5D6BD8FF12/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 1,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 0.8745098,
-            "g": 0.8117647,
-            "b": 0.745098054
-          },
-          "SpecularIntensity": 0.05,
-          "SpecularSharpness": 3.0,
-          "FresnelStrength": 1.0
-        },
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "713bd9"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 4.84068346,
-        "posY": 0.952832,
-        "posZ": 12.2951088,
-        "rotX": -1.40561315E-06,
-        "rotY": 4.64362984E-07,
-        "rotZ": 6.73360148E-07,
-        "scaleX": 1.99999917,
-        "scaleY": 1.99999917,
-        "scaleZ": 1.99999917
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868869916/4BAF1E7A71C1B269964841F4B5EDB1D4C99EFFE4/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680003/85E0644E160DEFB30DE3F43BD81F0FB37FF51EBC/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680324/7DA9A632F3312152F86C109ADA822C5D6BD8FF12/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 1,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 0.8745098,
-            "g": 0.8117647,
-            "b": 0.745098054
-          },
-          "SpecularIntensity": 0.05,
-          "SpecularSharpness": 3.0,
-          "FresnelStrength": 1.0
-        },
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "d1dc70"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": -15.5537014,
-        "posY": 0.9528311,
-        "posZ": 6.43695641,
-        "rotX": 6.38493759E-07,
-        "rotY": 270.0004,
-        "rotZ": 2.81672646E-06,
-        "scaleX": 1.99999917,
-        "scaleY": 1.99999917,
-        "scaleZ": 1.99999917
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868869297/EA0072CF1648455D7B4CFA03658007E6F6FFD4BA/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680003/85E0644E160DEFB30DE3F43BD81F0FB37FF51EBC/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680324/7DA9A632F3312152F86C109ADA822C5D6BD8FF12/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 1,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 0.8745098,
-            "g": 0.8117647,
-            "b": 0.745098054
-          },
-          "SpecularIntensity": 0.05,
-          "SpecularSharpness": 3.0,
-          "FresnelStrength": 1.0
-        },
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "98e473"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 6.218581,
-        "posY": 1.573717,
-        "posZ": -5.18474865,
-        "rotX": -7.00684632E-06,
-        "rotY": 180.001846,
-        "rotZ": 5.929514E-08,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868870462/DD723AC8DE9944D6B124321C22B1C4D5CA21A098/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680003/85E0644E160DEFB30DE3F43BD81F0FB37FF51EBC/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860680324/7DA9A632F3312152F86C109ADA822C5D6BD8FF12/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 1,
-        "TypeIndex": 1,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 0.8745098,
-            "g": 0.8117647,
-            "b": 0.745098054
-          },
-          "SpecularIntensity": 0.05,
-          "SpecularSharpness": 3.0,
-          "FresnelStrength": 1.0
-        },
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "ecea05"
-    },
-    {
-      "Name": "Custom_Model",
-      "Transform": {
-        "posX": 2.73436928,
-        "posY": 1.32506251,
-        "posZ": -10.872364,
-        "rotX": 0.00014113824,
-        "rotY": -0.000347870751,
-        "rotZ": 2.38378252E-05,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "CustomMesh": {
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/165905884868842866/6FD4E0FF536F0B8DE04CA51ADBC26FAA67CA9976/",
-        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804203/D57AB1A045D49D2E57A75E796FA56E6C423AB396/",
-        "NormalURL": "http://cloud-3.steamusercontent.com/ugc/165905884860804487/9AFE1D4A3A7981733A6C5906848213BB664DC20A/",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 1,
-        "CastShadows": true
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "GUID": "080720"
-    },
-    {
       "Name": "Tablet",
       "Transform": {
-        "posX": 19.87267,
-        "posY": 1.51999986,
-        "posZ": -14.5174036,
-        "rotX": -5.85947055E-06,
-        "rotY": 179.996719,
-        "rotZ": -4.9419873E-07,
+        "posX": 22.2004662,
+        "posY": 1.56898069,
+        "posZ": -15.1224031,
+        "rotX": 3.3068427E-05,
+        "rotY": 180.009827,
+        "rotZ": 359.5381,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3677,12 +839,2763 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "GUID": "e4d41a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.1502974,
+        "posY": 1.32483768,
+        "posZ": -8.597906,
+        "rotX": 0.003099345,
+        "rotY": 359.9873,
+        "rotZ": 0.000421919831,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/health_counter2.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/health_counter_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/health_counter_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "266bbf"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.152053,
+        "posY": 1.32489717,
+        "posZ": -9.693414,
+        "rotX": 0.00309759984,
+        "rotY": 359.964417,
+        "rotZ": 0.000411657267,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/health_counter2.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/health_counter_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/health_counter_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b18a28"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 3.1446805,
+        "posY": 1.32495856,
+        "posZ": -10.830698,
+        "rotX": 0.00310590467,
+        "rotY": 359.980743,
+        "rotZ": 0.000413333619,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/health_counter2.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/health_counter_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/health_counter_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a95833"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -13.7609854,
+        "posY": 1.32488465,
+        "posZ": -2.87647629,
+        "rotX": 0.0003584382,
+        "rotY": 359.958679,
+        "rotZ": -0.0025015932,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/health_counter2.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/health_counter_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/health_counter_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "85c1db"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -14.8637819,
+        "posY": 1.32493234,
+        "posZ": -2.85114455,
+        "rotX": 0.000357906625,
+        "rotY": 359.863861,
+        "rotZ": -0.0025024,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/health_counter2.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/health_counter_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/health_counter_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2cda4a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.0140724,
+        "posY": 1.32498264,
+        "posZ": -2.87048149,
+        "rotX": 0.000364271138,
+        "rotY": 359.930267,
+        "rotZ": -0.00251148082,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/health_counter2.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/health_counter_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/health_counter_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3282d0"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.241415,
+        "posY": 1.32485318,
+        "posZ": 10.6171265,
+        "rotX": -0.0028929878,
+        "rotY": 359.9464,
+        "rotZ": -0.000427282182,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/health_counter2.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/health_counter_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/health_counter_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "dfb444"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.252073,
+        "posY": 1.32491028,
+        "posZ": 11.7460394,
+        "rotX": -0.00289052725,
+        "rotY": 0.08842786,
+        "rotZ": -0.000431583641,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/health_counter2.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/health_counter_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/health_counter_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6944ed"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.22539854,
+        "posY": 1.32496643,
+        "posZ": 12.8587513,
+        "rotX": -0.00289116055,
+        "rotY": -0.00213122345,
+        "rotZ": -0.000426221173,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/health_counter2.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/health_counter_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/health_counter_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "09b6c1"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.3081417,
+        "posY": 1.32487416,
+        "posZ": 4.46526861,
+        "rotX": -0.000341413775,
+        "rotY": 0.00486028334,
+        "rotZ": 0.00253790966,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/health_counter2.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/health_counter_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/health_counter_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5f88ae"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 13.42984,
+        "posY": 1.3249234,
+        "posZ": 4.454223,
+        "rotX": -0.0003462983,
+        "rotY": 0.0196283665,
+        "rotZ": 0.00253413385,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/health_counter2.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/health_counter_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/health_counter_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6878c3"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.5783758,
+        "posY": 1.32497466,
+        "posZ": 4.478298,
+        "rotX": -0.000340915169,
+        "rotY": 359.96756,
+        "rotZ": 0.002535303,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/health_counter2.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/health_counter_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/health_counter_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "889fa8"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.314571649,
+        "posY": 1.32616067,
+        "posZ": 10.623208,
+        "rotX": 0.002906651,
+        "rotY": 180.004837,
+        "rotZ": 0.000435249851,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/wizard.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/colored_player_tokens_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/player_tokens_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 1.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e34327"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.9176499,
+        "posY": 1.32613993,
+        "posZ": -8.526856,
+        "rotX": -0.00310968,
+        "rotY": 180.001968,
+        "rotZ": -0.000411873421,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/ranger.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/colored_player_tokens_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/player_tokens_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 1.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "041d19"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -13.74156,
+        "posY": 1.32619429,
+        "posZ": 1.10093546,
+        "rotX": -0.000359695841,
+        "rotY": 180.001877,
+        "rotZ": 0.00251612114,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/knight.objhttps://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/knight.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/colored_player_tokens_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/player_tokens_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 1.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ecea05"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.26692,
+        "posY": 1.32618368,
+        "posZ": 0.3276139,
+        "rotX": 0.00035033343,
+        "rotY": 180.004913,
+        "rotZ": -0.00253846217,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/thief.objhttps://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/thief.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/colored_player_tokens_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/player_tokens_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 1.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d5cc04"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 4.376565,
+        "posY": 0.954623938,
+        "posZ": -8.198797,
+        "rotX": 5.02113835E-07,
+        "rotY": 180.00206,
+        "rotZ": 2.13539664E-07,
+        "scaleX": 1.49999964,
+        "scaleY": 1.49999964,
+        "scaleZ": 1.49999964
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/ranger.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/colored_player_tokens_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/player_tokens_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 1.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "92047b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.9210567,
+        "posY": 0.9546238,
+        "posZ": 5.762792,
+        "rotX": -1.0920952E-06,
+        "rotY": 180.0049,
+        "rotZ": -1.11354034E-07,
+        "scaleX": 1.49999964,
+        "scaleY": 1.49999964,
+        "scaleZ": 1.49999964
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/thief.objhttps://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/thief.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/colored_player_tokens_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/player_tokens_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 1.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "01ee24"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -5.616419,
+        "posY": 0.954624,
+        "posZ": 10.1710691,
+        "rotX": 2.278492E-06,
+        "rotY": 180.004944,
+        "rotZ": -6.966986E-07,
+        "scaleX": 1.49999964,
+        "scaleY": 1.49999964,
+        "scaleZ": 1.49999964
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/wizard.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/colored_player_tokens_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/player_tokens_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 1.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b93aaa"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -13.3501225,
+        "posY": 0.954623938,
+        "posZ": -4.24591732,
+        "rotX": 1.64717926E-06,
+        "rotY": 180.001862,
+        "rotZ": 1.55782971E-06,
+        "scaleX": 1.49999964,
+        "scaleY": 1.49999964,
+        "scaleZ": 1.49999964
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/knight.objhttps://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/knight.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/colored_player_tokens_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/player_tokens_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 1.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "74c045"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 1.89540088,
+        "posY": 1.66387892,
+        "posZ": 4.580283,
+        "rotX": -3.38702449E-07,
+        "rotY": 89.99998,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        101,
+        102,
+        104,
+        106,
+        103,
+        100,
+        105
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/images/Nature%20Deck_fixed.png",
+          "BackURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/images/Nature_Back.png",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0142510189,
+            "posY": 2.67276,
+            "posZ": -0.0326681919,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 101,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "b14a20"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0142510189,
+            "posY": 2.67276,
+            "posZ": -0.0326681919,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 102,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "b14a20"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0142510189,
+            "posY": 2.67276,
+            "posZ": -0.0326681919,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 104,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "b14a20"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0142510189,
+            "posY": 2.67276,
+            "posZ": -0.0326681919,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 106,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "b14a20"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0142510189,
+            "posY": 2.67276,
+            "posZ": -0.0326681919,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 103,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "b14a20"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0142510189,
+            "posY": 2.67276,
+            "posZ": -0.0326681919,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 100,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "b14a20"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0142510189,
+            "posY": 2.67276,
+            "posZ": -0.0326681919,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 105,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "b14a20"
+        }
+      ],
+      "GUID": "687577"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 8.352301,
+        "posY": 1.69107318,
+        "posZ": -3.73152947,
+        "rotX": 1.01728654E-06,
+        "rotY": 180.000076,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        202,
+        211,
+        215,
+        214,
+        207,
+        203,
+        208,
+        206,
+        204,
+        209,
+        201,
+        213,
+        216,
+        200,
+        210,
+        205,
+        212
+      ],
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/images/town_deck.png",
+          "BackURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/images/Town%20Back.png",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 202,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 211,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 215,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 214,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 207,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 203,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 208,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 206,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 204,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 209,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 201,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 213,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 216,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 200,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 210,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 205,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90201569E-08,
+            "posY": 1.66223145,
+            "posZ": 9.606697E-08,
+            "rotX": 8.263808E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 212,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "32159d"
+        }
+      ],
+      "GUID": "48eab9"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.1210861,
+        "posY": 1.35243726,
+        "posZ": -9.97524452,
+        "rotX": 3.41509462E-06,
+        "rotY": 99.9646454,
+        "rotZ": 89.99999,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/dice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/d6_black_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/d6_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 2,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.8
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "24afce"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.7850523,
+        "posY": 1.35473728,
+        "posZ": -11.2499428,
+        "rotX": 90.0,
+        "rotY": 327.696655,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/dice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/d6_black_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/d6_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 2,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.8
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "3ddb61"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.9116573,
+        "posY": 1.35266387,
+        "posZ": -11.1662893,
+        "rotX": 270.0,
+        "rotY": 81.6197739,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/objects/dice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/diffuse/d6_black_c.png",
+        "NormalURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/normal/d6_n.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 2,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.8
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e1d67d"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 1.905707,
+        "posY": 1.6638788,
+        "posZ": 2.2626698,
+        "rotX": -5.041266E-08,
+        "rotY": 90.00155,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        304,
+        303,
+        306,
+        301,
+        300,
+        302,
+        305
+      ],
+      "CustomDeck": {
+        "3": {
+          "FaceURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/images/Castle_deck_fixed.png",
+          "BackURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/images/Castle_Back.png",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.93639459E-08,
+            "posY": 1.66223145,
+            "posZ": 1.44767E-07,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 304,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "d17849"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.93639459E-08,
+            "posY": 1.66223145,
+            "posZ": 1.44767E-07,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 303,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "d17849"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.93639459E-08,
+            "posY": 1.66223145,
+            "posZ": 1.44767E-07,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 306,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "d17849"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.93639459E-08,
+            "posY": 1.66223145,
+            "posZ": 1.44767E-07,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 301,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "d17849"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.93639459E-08,
+            "posY": 1.66223145,
+            "posZ": 1.44767E-07,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 300,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "d17849"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.93639459E-08,
+            "posY": 1.66223145,
+            "posZ": 1.44767E-07,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 302,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "d17849"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.93639459E-08,
+            "posY": 1.66223145,
+            "posZ": 1.44767E-07,
+            "rotX": 1.58408213E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 305,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "d17849"
+        }
+      ],
+      "GUID": "802cc0"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 1.8779434,
+        "posY": 1.66387868,
+        "posZ": -0.008977917,
+        "rotX": -1.31622187E-07,
+        "rotY": 89.90253,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406
+      ],
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/images/dungeon_deck.png",
+          "BackURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/images/Dungeon_Back.png",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.00271957135,
+            "posY": 1.75370383,
+            "posZ": -0.00138084649,
+            "rotX": 3.36670732,
+            "rotY": 180.01503,
+            "rotZ": 179.994308,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 400,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "165f7b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.00271957135,
+            "posY": 1.75370383,
+            "posZ": -0.00138084649,
+            "rotX": 3.36670732,
+            "rotY": 180.01503,
+            "rotZ": 179.994308,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 401,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "165f7b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.00271957135,
+            "posY": 1.75370383,
+            "posZ": -0.00138084649,
+            "rotX": 3.36670732,
+            "rotY": 180.01503,
+            "rotZ": 179.994308,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 402,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "165f7b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.00271957135,
+            "posY": 1.75370383,
+            "posZ": -0.00138084649,
+            "rotX": 3.36670732,
+            "rotY": 180.01503,
+            "rotZ": 179.994308,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 403,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "165f7b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.00271957135,
+            "posY": 1.75370383,
+            "posZ": -0.00138084649,
+            "rotX": 3.36670732,
+            "rotY": 180.01503,
+            "rotZ": 179.994308,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 404,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "165f7b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.00271957135,
+            "posY": 1.75370383,
+            "posZ": -0.00138084649,
+            "rotX": 3.36670732,
+            "rotY": 180.01503,
+            "rotZ": 179.994308,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 405,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "165f7b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.00271957135,
+            "posY": 1.75370383,
+            "posZ": -0.00138084649,
+            "rotX": 3.36670732,
+            "rotY": 180.01503,
+            "rotZ": 179.994308,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 406,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "165f7b"
+        }
+      ],
+      "GUID": "3ba3b9"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 1.89906132,
+        "posY": 1.660216,
+        "posZ": -2.28224969,
+        "rotX": 4.970753E-07,
+        "rotY": 90.00053,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        600,
+        601,
+        602,
+        603,
+        604,
+        605
+      ],
+      "CustomDeck": {
+        "6": {
+          "FaceURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/images/Hellgate_Deck.png",
+          "BackURL": "https://raw.githubusercontent.com/Kavex/Desperate-Gods-Tabletop-Simulator-Edition/master/files/images/Hellgate_Back.png",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.003535654,
+            "posY": 1.78683615,
+            "posZ": -0.00118618668,
+            "rotX": 0.000211016333,
+            "rotY": 179.9567,
+            "rotZ": 173.292648,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 600,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "20ff7c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.003535654,
+            "posY": 1.78683615,
+            "posZ": -0.00118618668,
+            "rotX": 0.000211016333,
+            "rotY": 179.9567,
+            "rotZ": 173.292648,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 601,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "20ff7c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.003535654,
+            "posY": 1.78683615,
+            "posZ": -0.00118618668,
+            "rotX": 0.000211016333,
+            "rotY": 179.9567,
+            "rotZ": 173.292648,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 602,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "20ff7c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.003535654,
+            "posY": 1.78683615,
+            "posZ": -0.00118618668,
+            "rotX": 0.000211016333,
+            "rotY": 179.9567,
+            "rotZ": 173.292648,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 603,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "20ff7c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.003535654,
+            "posY": 1.78683615,
+            "posZ": -0.00118618668,
+            "rotX": 0.000211016333,
+            "rotY": 179.9567,
+            "rotZ": 173.292648,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 604,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "20ff7c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.003535654,
+            "posY": 1.78683615,
+            "posZ": -0.00118618668,
+            "rotX": 0.000211016333,
+            "rotY": 179.9567,
+            "rotZ": 173.292648,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 605,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "20ff7c"
+        }
+      ],
+      "GUID": "b96802"
     }
   ],
   "TabStates": {
     "0": {
       "title": "Rules",
-      "body": "PDF of the Rules can be found at https://drive.google.com/open?id=0B0WS_iejj_1LN1VFRXVnRk96Zk0",
+      "body": "Please view the tablet or go to https://goo.gl/5XYSjr for rules",
       "color": "Grey",
       "visibleColor": {
         "r": 0.5,
@@ -3690,17 +3603,6 @@
         "b": 0.5
       },
       "id": 0
-    },
-    "1": {
-      "title": "White",
-      "body": "",
-      "color": "White",
-      "visibleColor": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "id": 1
     },
     "2": {
       "title": "Brown",
